@@ -8,7 +8,7 @@ const reducer=(store,{type,payload})=>{
   switch(type)
 {
   case Add_Todo:
-    console.log(store.todos)
+    // console.log(store.todos)
     return{
         // console.log(...store),
       
@@ -18,9 +18,7 @@ const reducer=(store,{type,payload})=>{
     };
 
     default:
-      return{
-        store
-      };
+      return store;
    
 
 
